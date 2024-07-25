@@ -6,17 +6,6 @@ print(9 + 5)  # integer + integer, result: 14
 print(67 - 66)  # integer - integer, result: 1
 print(4 + 0.8)  # integer + float, result: 4.8
 
-# Variables and tax calculation
-salaryAli = 5000
-salaryVeli = 8000
-tax = 0.15
-
-# Ali's salary after tax
-print(salaryAli - (salaryAli * tax))  # 5000 - 750 = 4250
-
-# Veli's salary after tax
-print(salaryVeli - (salaryVeli * tax))  # 8000 - 1200 = 6800
-
 # To get the type of a value from the output;
 print(type(2))  # <class 'int'>
 print(type(2.85))  # <class 'float'>
