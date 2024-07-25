@@ -15,9 +15,9 @@ y = input('2.sayı: ')
 print(type(x))  # Output: <class 'str'> (input() returns strings by default)
 print(type(y))  # Output: <class 'str'>
 
-toplam = int(x) + int(y)  # Convert input strings to integers and add them
+sum = int(x) + int(y)  # Convert input strings to integers and add them
 
-print(toplam)  # Output: sum of x and y as integers
+print(sum)  # Output: sum of x and y as integers
 
 Explanation:
 
