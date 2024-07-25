@@ -8,7 +8,7 @@ description_length = len(description)
 protocol = url[:5]  # https
 
 # 3- Extract 'org' from the 'url' string.
-Method 1: Using slicing
+# Method 1: Using slicing
 domain_part = url[12:15]  # org
 # Method 2: Using split()
 url_parts = url.split('.')
