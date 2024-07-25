@@ -9,10 +9,12 @@ Python provides a variety of string methods for manipulating and processing stri
    text = "hello"
    print(text.upper())  # Output: "HELLO"
 
-lower()
-Converts all characters in the string to lowercase.
-text = "HELLO"
-print(text.lower())  # Output: "hello"
+2. **`lower()`**
+   Converts all characters in the string to lowercase.
+
+   ```python
+   text = "HELLO"
+   print(text.lower())  # Output: "hello"
 
 capitalize()
 Capitalizes the first character of the string and makes the rest lowercase.
