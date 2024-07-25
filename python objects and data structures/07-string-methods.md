@@ -73,11 +73,3 @@ Python provides a variety of string methods for manipulating and processing stri
    text = "hello world world"
    print(text.rfind("world"))  # Output: 12
 
-11. **`split(separator)()`**
-   Splits the string into a list using the specified separator.
-
-   ```python
-   text = "hello world Python"
-   print(text.split(" "))  # Output: ['hello', 'world', 'Python']
-
-
