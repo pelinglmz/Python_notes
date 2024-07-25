@@ -65,3 +65,31 @@ float to int: Converts a floating-point number to an integer (fractional part is
 int to str: Converts integers to strings for concatenation.
 bool to str: Converts boolean values to their string representation.
 bool to int: Converts boolean values to integers (True to 1, False to 0).
+
+# Example
+# Circle Area and Circumference Calculation
+
+To calculate the area and circumference of a circle, use the following formulas:
+
+- **Area**: πr²
+- **Circumference**: 2πr
+
+In the given code, the radius (r) is provided by the user.
+
+```python
+pi = 3.14
+
+# Prompt the user to input the radius
+r = float(input("Radius: "))
+
+# Calculate the area of the circle
+area = pi * (r ** 2)
+print(type(area))  # Output: <class 'float'>
+
+# Calculate the circumference of the circle
+circumference = 2 * pi * r
+print(type(circumference))  # Output: <class 'float'>
+
+# Print the results
+print("Area: " + str(area) + " Circumference: " + str(circumference))
+
