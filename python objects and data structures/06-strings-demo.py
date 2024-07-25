@@ -8,7 +8,13 @@ description_length = len(description)
 protocol = url[:5]  # https
 
 # 3- Extract 'org' from the 'url' string.
+Method 1: Using slicing
 domain_part = url[12:15]  # org
+# Method 2: Using split()
+url_parts = url.split('.')
+domain_part_split = url_parts[1]  # org
+# Method 3: Using negative indexing
+domain_part_negative_indexing = url[-11:-8]  # org
 
 # 4- Extract the first 10 and last 10 characters from the 'description' string.
 first_part = description[:10]
