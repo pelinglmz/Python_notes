@@ -67,9 +67,8 @@ Python provides a variety of string methods for manipulating and processing stri
    print(text.find("Python"))  # Output: -1
 
 10. **`rfind(substring)()`**
-   Returns the index of the last occurrence of the substring substring. Returns -1 if the substring is not found.
+    Returns the index of the last occurrence of the substring substring. Returns -1 if the substring is not found.
 
    ```python
    text = "hello world world"
    print(text.rfind("world"))  # Output: 12
-
