@@ -41,10 +41,8 @@ print(z)  # 30
 salaryAli = 5000
 salaryVeli = 8000
 tax = 0.15
-
 # Ali's salary after tax
 print(salaryAli - (salaryAli * tax))  # 5000 - 750 = 4250
-
 # Veli's salary after tax
 print(salaryVeli - (salaryVeli * tax))  # 8000 - 1200 = 6800
 
