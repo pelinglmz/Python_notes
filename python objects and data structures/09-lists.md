@@ -4,9 +4,9 @@ In Python, a list is a data type used to store multiple items in a single variab
 
 ## Creating and Printing Lists
 
-### In Python, lists are created using square brackets `[]`. You can store different data types in the same list.
+In Python, lists are created using square brackets `[]`. You can store different data types in the same list.
 
-  ```python
+  python
   # List of integers
   my_list1 = [1, 2, 3, 4]
   print(my_list1)  # Output: [1, 2, 3, 4]
@@ -15,31 +15,31 @@ In Python, a list is a data type used to store multiple items in a single variab
   my_list2 = ['one', 2, True, 5.6]
   print(my_list2)  # Output: ['one', 2, True, 5.6]
 
-### Concatenating Lists
+ Concatenating Lists
 
-```python
+ python
   You can concatenate two lists using the + operator.
   list1 = ["one", "two"]
   list2 = ["three", "four"]
   numbers = list1 + list2
   print(numbers)  # Output: ['one', 'two', 'three', 'four']
 
-### List Length
+ List Length
 
-```python
+python
   You can find the length of a list using the len() function.
   print(len(numbers))  # Output: 4
 
-### Nested Lists
+ Nested Lists
 
-```python
+python
   You can store another list inside a list. This is called a nested list.
   number = [list1, list2]
   print(number)  # Output: [['one', 'two'], ['three', 'four']]
 
-### Accessing Nested List Elements
+ Accessing Nested List Elements
 
-```python
+python
   To access elements in nested lists, use two indices.
   # First inner list
   print(number[0])  # Output: ['one', 'two']
