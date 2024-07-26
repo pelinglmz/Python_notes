@@ -14,6 +14,7 @@ my_list1 = [1, 2, 3, 4]
 print(my_list1)  # Output: [1, 2, 3, 4]
 
 List containing different data types:
+```python
 my_list2 = ['one', 2, True, 5.6]
 print(my_list2)  # Output: ['one', 2, True, 5.6]
 
@@ -21,6 +22,7 @@ Concatenating Lists
 You can concatenate two lists using the + operator.
 
 Example
+```python
 Concatenating ["one", "two"] and ["three", "four"] results in:
 list1 = ["one", "two"]
 list2 = ["three", "four"]
