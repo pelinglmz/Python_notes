@@ -6,7 +6,7 @@ In Python, a list is a data type used to store multiple items in a single variab
 
 In Python, lists are created using square brackets `[]`. You can store different data types in the same list.
 
-python
+```python
 # List of integers
 my_list1 = [1, 2, 3, 4]
 print(my_list1)  # Output: [1, 2, 3, 4]
