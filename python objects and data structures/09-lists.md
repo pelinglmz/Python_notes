@@ -14,25 +14,36 @@ print(my_list1)  # Output: [1, 2, 3, 4]
 # List containing different data types
 my_list2 = ['one', 2, True, 5.6]
 print(my_list2)  # Output: ['one', 2, True, 5.6]
-
+```
 Concatenating Lists
 You can concatenate two lists using the + operator.
+
+```python
 list1 = ["one", "two"]
 list2 = ["three", "four"]
 numbers = list1 + list2
 print(numbers)  # Output: ['one', 'two', 'three', 'four']
+```
 
 List Length
 You can find the length of a list using the len() function.
+
+```python
 print(len(numbers))  # Output: 4
+```
 
 Nested Lists
 You can store another list inside a list. This is called a nested list.
+
+```python
 number = [list1, list2]
 print(number)  # Output: [['one', 'two'], ['three', 'four']]
+```
 
 Accessing Nested List Elements
 To access elements in nested lists, use two indices.
+
+```python
 # First inner list
 print(number[0])  # Output: ['one', 'two']
 
