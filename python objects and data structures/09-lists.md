@@ -11,7 +11,9 @@ In Python, lists are created using square brackets `[]`. You can store different
 my_list1 = [1, 2, 3, 4]
 print(my_list1)  # Output: [1, 2, 3, 4]
 
-# List containing different data types
+**`List containing different data types`**
+
+ ```python
 my_list2 = ['one', 2, True, 5.6]
 print(my_list2)  # Output: ['one', 2, True, 5.6]
 
@@ -49,3 +51,16 @@ print(a[1])  # Output: 'two'
 # Alternatively, use direct nested indexing
 print(number[0][1])  # Output: 'two'
 print(number[1][1])  # Output: 'four'
+
+
+
+
+
+
+
+   **`upper()`**
+   Converts all characters in the string to uppercase.
+
+   ```python
+   text = "hello"
+   print(text.upper())  # Output: "HELLO"
