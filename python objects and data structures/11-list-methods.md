@@ -17,9 +17,8 @@ val = min(letters)  # 'a'
 ```
 
 Slicing Lists
-
-```python
 You can slice lists to get specific portions.
+```python
 val = numbers[3:6]  # [16, 4, 9]
 val = numbers[:3]   # [1, 10, 5]
 val = numbers[4:]   # [4, 9, 10]
