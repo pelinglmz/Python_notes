@@ -123,6 +123,7 @@ letters.reverse()  # ['s', 'g', 'a']
 ```
 
 `min()` and `max()` Methods
+
 To get the minimum and maximum values in a list, whether numerical or alphabetical, use `min()` and `max()` methods.
 ```python
 numbers = [1, 10, 5, 16, 4, 9, 10]
@@ -135,6 +136,7 @@ min(letters)  # a
 ```
 
 `count()` Method
+
 To get the count of repeating elements in a list, use the `count()` method.
 ```python
 numbers = [1, 10, 5, 16, 4, 9, 10]
