@@ -10,23 +10,25 @@ list.append("apple")
 print(list)  # ["banana", "grape", "cherry", "apple"]
 ```
 
-To insert an element at a specified index in a Python list, use the insert() method.
+To insert an element at a specified index in a Python list, use the `insert()` method.
+```python
 list = ["banana", "grape", "cherry"]
 list.insert(2, "apple")
 print(list)  # ["banana", "grape", "apple", "cherry"]
+```
 
 
 Removing an Element from a List
 There are various methods available to remove elements from Python lists.
 
-To remove an element by value, use the remove() method.
+To remove an element by value, use the `remove()` method.
 ```python
 list = ["banana", "grape", "cherry"]
 list.remove("grape")
 print(list)  # ["banana", "cherry"]
 ```
 
-To remove an element at a specified index, use the pop() method. If no index is specified, the last element is removed.
+To remove an element at a specified index, use the `pop()` method. If no index is specified, the last element is removed.
 ```python
 list = ["banana", "grape", "cherry"]
 list.pop(1)
@@ -56,7 +58,7 @@ print(list)  # NameError: name 'list' is not defined
 
 In this case, trying to access the list will result in a NameError, indicating that the list is not defined.
 
-Additionally, you can use the clear() method to empty the list. The difference between del and clear() is that with clear(), the list reference remains in memory, whereas with del, the reference is removed.
+Additionally, you can use the `clear()` method to empty the list. The difference between del and `clear()` is that with `clear()`, the list reference remains in memory, whereas with del, the reference is removed.
 ```python
 list = ["banana", "grape", "cherry"]
 list.clear()
@@ -86,7 +88,7 @@ print(a, b)  # output: ['updated', 'cherry'] ['updated', 'cherry']
 
 As shown, after the assignment, updating b[0] does not affect list a because they are different objects with different addresses. Here, only the information inside was copied, not the address.
 
-Another method to copy lists is using the list() method.
+Another method to copy lists is using the `list()` method.
 ```python
 a = ["apple", "banana"]
 b = ["grape", "cherry"]
@@ -96,7 +98,7 @@ print(a, b)  # output: ['grape', 'cherry'] ['updated', 'cherry']
 ```
 
 Sorting List Elements
-To sort list elements, use the sort() method.
+To sort list elements, use the `sort()` method.
 ```python
 numbers = [1, 10, 5, 16, 4, 9, 10]
 letters = ['a', 'g', 's', 'b', 'y', 'a', 's']
@@ -111,7 +113,7 @@ numbers.sort(reverse=True)  # sorts numerically in descending order.
 letters.sort(reverse=True)  # sorts alphabetically from z to a.
 ```
 
-You can also reverse the order of the list using the reverse() method.
+You can also reverse the order of the list using the `reverse()` method.
 ```python
 numbers = [1, 10, 5]
 letters = ['a', 'g', 's']
@@ -120,9 +122,8 @@ numbers.reverse()  # [5, 10, 1]
 letters.reverse()  # ['s', 'g', 'a']
 ```
 
-Other List Methods
-min() and max() Methods
-To get the minimum and maximum values in a list, whether numerical or alphabetical, use min() and max() methods.
+`min()` and `max()` Methods
+To get the minimum and maximum values in a list, whether numerical or alphabetical, use `min()` and `max()` methods.
 ```python
 numbers = [1, 10, 5, 16, 4, 9, 10]
 letters = ['a', 'g', 's', 'b', 'y', 'a', 's']
@@ -133,8 +134,8 @@ max(letters)  # y
 min(letters)  # a
 ```
 
-count() Method
-To get the count of repeating elements in a list, use the count() method.
+`count()` Method
+To get the count of repeating elements in a list, use the `count()` method.
 ```python
 numbers = [1, 10, 5, 16, 4, 9, 10]
 letters = ['a', 'g', 's', 'b', 'y', 'a', 's']
