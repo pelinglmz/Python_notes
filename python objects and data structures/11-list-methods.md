@@ -1,7 +1,5 @@
 # List Operations in Python
 
-## English
-
 ### Finding Minimum and Maximum Values
 
 You can find the minimum and maximum values in a list using the `min()` and `max()` functions.
