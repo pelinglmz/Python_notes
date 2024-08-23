@@ -2,8 +2,6 @@
 
 In this code, we demonstrate how to create and manipulate strings in Python. We'll cover string concatenation, slicing, and accessing specific characters.
 
-### Code
-
 ```python
 name = 'Sadık'
 surname = 'Turan'
