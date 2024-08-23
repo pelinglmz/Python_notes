@@ -9,6 +9,7 @@ There are two main numeric data types in Python: `int` (integer) and `float`.
 ## Simple Arithmetic Operations and Data Types
 
 int + int results in int.
+
 int + float results in float.
 
 ```python
