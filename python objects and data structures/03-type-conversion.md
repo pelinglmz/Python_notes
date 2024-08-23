@@ -1,10 +1,6 @@
 # Python Data Types and Type Conversion
 
-## Introduction
-
 In Python, data types define the kind of value a variable can hold. Common data types include integers (`int`), floating-point numbers (`float`), strings (`str`), and booleans (`bool`). Type conversion allows you to change a value from one data type to another.
-
-## Examples and Explanations
 
 ### 1. Input and Type Checking
 
@@ -12,19 +8,22 @@ In Python, data types define the kind of value a variable can hold. Common data 
 x = input('1.sayı: ')
 y = input('2.sayı: ')
 
-print(type(x))  # Output: <class 'str'> (input() returns strings by default)
+# (input() returns strings by default)
+print(type(x))  # Output: <class 'str'> 
 print(type(y))  # Output: <class 'str'>
 
-sum = int(x) + int(y)  # Convert input strings to integers and add them
+# Convert input strings to integers and add them
+sum = int(x) + int(y)  
 
-print(sum)  # Output: sum of x and y as integers
-
-Explanation:
+print(sum)  
+```
 
 input() returns values as strings (str).
+
 To perform arithmetic operations, we need to convert these strings to integers using int().
 
-2. Type Conversion
+### 2. Type Conversion
+```python
 x = 5               # int
 y = 2.5             # float
 name = 'Çınar'      # str
@@ -57,26 +56,28 @@ isOnline = False
 isOnline = int(isOnline)
 print(isOnline)    # Output: 0 (False is converted to 0)
 print(type(isOnline))  # Output: <class 'int'>
-
-Explanation:
+```
 
 int to float: Converts an integer to a floating-point number.
+
 float to int: Converts a floating-point number to an integer (fractional part is discarded).
+
 int to str: Converts integers to strings for concatenation.
+
 bool to str: Converts boolean values to their string representation.
+
 bool to int: Converts boolean values to integers (True to 1, False to 0).
 
 # Example
 # Circle Area and Circumference Calculation
 
 To calculate the area and circumference of a circle, use the following formulas:
-
+```python
 - **Area**: πr²
 - **Circumference**: 2πr
 
-In the given code, the radius (r) is provided by the user.
+# In the given code, the radius (r) is provided by the user.
 
-```python
 pi = 3.14
 
 # Prompt the user to input the radius
