@@ -1,6 +1,6 @@
 # Variable Naming Rules in Python
 
-## Variable names cannot start with a digit; they must start with a letter (a-z, A-Z) or an underscore (_).
+Variable names cannot start with a digit; they must start with a letter (a-z, A-Z) or an underscore (_).
 
 ```python
 # Valid
