@@ -4,6 +4,10 @@ In Python, data types define the kind of value a variable can hold. Common data 
 
 ### 1. Input and Type Checking
 
+input() returns values as strings (str).
+
+To perform arithmetic operations, we need to convert these strings to integers using int().
+
 ```python
 x = input('1.sayı: ')
 y = input('2.sayı: ')
@@ -18,11 +22,18 @@ sum = int(x) + int(y)
 print(sum)  
 ```
 
-input() returns values as strings (str).
-
-To perform arithmetic operations, we need to convert these strings to integers using int().
-
 ### 2. Type Conversion
+
+int to float: Converts an integer to a floating-point number.
+
+float to int: Converts a floating-point number to an integer (fractional part is discarded).
+
+int to str: Converts integers to strings for concatenation.
+
+bool to str: Converts boolean values to their string representation.
+
+bool to int: Converts boolean values to integers (True to 1, False to 0).
+
 ```python
 x = 5               # int
 y = 2.5             # float
@@ -58,18 +69,8 @@ print(isOnline)    # Output: 0 (False is converted to 0)
 print(type(isOnline))  # Output: <class 'int'>
 ```
 
-int to float: Converts an integer to a floating-point number.
-
-float to int: Converts a floating-point number to an integer (fractional part is discarded).
-
-int to str: Converts integers to strings for concatenation.
-
-bool to str: Converts boolean values to their string representation.
-
-bool to int: Converts boolean values to integers (True to 1, False to 0).
-
+Example: Circle Area and Circumference Calculation
 ```python
-# Example: Circle Area and Circumference Calculation
 
 # To calculate the area and circumference of a circle, use the following formulas:
 # Area: πr²
