@@ -30,13 +30,12 @@ Order of Operations
 In Python, the order of operations follows mathematical rules: first multiplication and division, then addition and subtraction. Parentheses can be used to control the order of operations.
 
 Type Conversion in Arithmetic Operations
-In Python, the result of any arithmetic operation between an int and a float is a float.
 
 ```python
 print(4 + 6 * 5 + 2)  # 4 + 30 + 2 = 36
 print((4 + 6) * (5 + 2))  # (10) * (7) = 70
 ```
-
+In Python, the result of any arithmetic operation between an int and a float is a float.
 (floor division) returns the largest integer less than or equal to the result of the division.
 ```python
 a = 5    # int
