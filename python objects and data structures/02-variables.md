@@ -25,8 +25,11 @@ height = 175.5
 ```
 
 Python variable names are case sensitive. name and Name are considered different variables.
+
 It is recommended to avoid using Turkish characters (ç, ğ, ü, ö, ş, ı) in variable names. English characters are preferred.
+
 String literals can be enclosed in single (' ') or double (" ") quotes.
+
 ```python
 single_quote_string = 'Hello, world!'
 double_quote_string = "Python is fun!"
@@ -48,7 +51,7 @@ print(z)  # 30
 
 Example 1
 ```python
-Variables and tax calculation
+# Variables and tax calculation
 salaryAli = 5000
 salaryVeli = 8000
 tax = 0.15
