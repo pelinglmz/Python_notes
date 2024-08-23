@@ -20,7 +20,7 @@ Use type() to determine the type of a value.
 
 ```python
 
-Getting the Type of a Value
+# Getting the Type of a Value
 print(type(2))  # Output: <class 'int'>
 print(type(2.85))  # Output: <class 'float'>
 
@@ -50,7 +50,7 @@ print(a ** b)  # 172.46660197362375, exponentiation
 print(a % b)   # 1.7999999999999998, modulus
 print(a // b)  # 1.0, floor division
 
-Examples of Floor Division
+# Examples of Floor Division
 print(-15 // 4)   # -4
 print(15 // 4)    # 3
 print(-15 // -4)  # 3
