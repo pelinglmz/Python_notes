@@ -14,7 +14,6 @@ print(67 - 66)  # integer - integer, result: 1
 print(4 + 0.8)  # integer + float, result: 4.8
 ```
 
-Explanation:
 
 int + int results in int.
 int + float results in float.
@@ -26,7 +25,6 @@ print(type(2))  # Output: <class 'int'>
 print(type(2.85))  # Output: <class 'float'>
 
 ```
-Explanation:
 
 Use type() to determine the type of a value.
 
@@ -35,9 +33,6 @@ Order of Operations
 print(4 + 6 * 5 + 2)  # 4 + 30 + 2 = 36
 print((4 + 6) * (5 + 2))  # (10) * (7) = 70
 ```
-
-Explanation:
-
 In Python, the order of operations follows mathematical rules: first multiplication and division, then addition and subtraction. Parentheses can be used to control the order of operations.
 
 Type Conversion in Arithmetic Operations
@@ -61,7 +56,5 @@ print(15 // 4)    # 3
 print(-15 // -4)  # 3
 print(15 // -4)   # -4
 ```
-
-Explanation:
 
 (floor division) returns the largest integer less than or equal to the result of the division.
