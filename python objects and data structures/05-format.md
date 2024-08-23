@@ -1,8 +1,6 @@
 # String Formatting in Python
 
-This document demonstrates various ways to format strings in Python using the `format` method and f-strings. Each example includes explanations and outputs.
-
-### Code
+The ways of formatting strings using the format method and f-strings in Python:
 
 ```python
 name = "Nazım"
