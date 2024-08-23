@@ -68,13 +68,13 @@ bool to str: Converts boolean values to their string representation.
 
 bool to int: Converts boolean values to integers (True to 1, False to 0).
 
-# Example
-# Circle Area and Circumference Calculation
+Circle Area and Circumference Calculation
 
-To calculate the area and circumference of a circle, use the following formulas:
 ```python
-- **Area**: πr²
-- **Circumference**: 2πr
+# To calculate the area and circumference of a circle, use the following formulas:
+# Area: πr²
+# Circumference: 2πr
+
 
 # In the given code, the radius (r) is provided by the user.
 
